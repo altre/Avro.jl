@@ -1,13 +1,7 @@
 # Avro
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliadata.github.io/Avro.jl/stable)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://juliadata.github.io/Avro.jl/dev)
-[![CI](https://github.com/JuliaData/Avro.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Avro.jl/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/JuliaData/Avro.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/JuliaData/Avro.jl)
+This is a clone of https://github.com/JuliaData/Avro.jl with the added functionality of writing record by record and reading on partition at a time. The relevant PR is: https://github.com/JuliaData/Avro.jl/pull/16 Should this be merged, we should revert to the official Avro package and delete this everywhere.
 
-<!-- [![deps](https://juliahub.com/docs/Avro/deps.svg)](https://juliahub.com/ui/Packages/Avro/QnF3w?t=2)
-[![version](https://juliahub.com/docs/Avro/version.svg)](https://juliahub.com/ui/Packages/Avro/QnF3w)
-[![pkgeval](https://juliahub.com/docs/Avro/pkgeval.svg)](https://juliahub.com/ui/Packages/Avro/QnF3w) -->
 
 This is a pure Julia implementation of the [Apache Avro](http://avro.apache.org/docs/current/index.html) data standard. It provides convenient APIs for reading/writing data directly in the avro format, or as schema-included object container files.
 

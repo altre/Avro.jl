@@ -1,5 +1,5 @@
-name = "Avro"
-uuid = "65fc3dcb-49af-4f0c-a340-607eef534a14"
+name = "AvroRecords"
+uuid = "d12a3f13-aab2-423e-971b-5a17215d33c3"
 authors = ["Jacob Quinn <quinn.jacobd@gmail.com> and contributors"]
 version = "1.1.0"
 
