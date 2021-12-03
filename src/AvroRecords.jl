@@ -80,7 +80,7 @@ tbl = Avro.readtable("data.avro")
 ```
 
 """
-module Avro
+module AvroRecords
 
 using Mmap, UUIDs, Dates
 using StructTypes, JSON3, Tables, SentinelArrays
